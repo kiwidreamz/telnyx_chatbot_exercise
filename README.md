@@ -13,7 +13,7 @@ This is an interactive chatbot application that utilizes the Langchain library f
     ```
     git clone https://github.com/YourUserName/YourRepoName.git
     ```
-2. **Set up the environment variable**
+2. **Set up the OpenAI API key as an environment variable**
    
    For security purposes, the OpenAI API key needs to be saved as an environment variable. Depending on your operating system, the way to do this will vary. On Unix systems, you can use the `export` command:
     ```
@@ -23,10 +23,20 @@ This is an interactive chatbot application that utilizes the Langchain library f
     ```
     setx OPENAI_API_KEY "YourAPIKey"
     ```
+    
+3. **Have a `documentation.json` file in the same directory as `app.py`**
+    
+    This bot uses a `documentation.json` file to generate answers. The provided example uses Telnyx's documentation, which allows the bot to answer questions like:
+    - "What are the SMS guidelines for Ireland?"
+    - "What country uses the country code 52?"
+    - "What is the MCC for Serbia?"
 
-3. **Run the bot**
+4. **Run the bot**
    
    Navigate to the project directory and run the `app.py` file using your Python compiler. The bot will start, and it will wait for your input in the command line.
+
+5. **Quit the bot**
+    You can stop the bot by typing "quit" at the prompt.
 
 ## Interacting with the Bot
 The bot works through the command line: the bot will wait for a question, provide an answer, and then wait for another one. To close the bot application, simply write "quit" as a prompt.
