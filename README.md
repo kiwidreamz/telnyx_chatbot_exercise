@@ -1,7 +1,7 @@
 # Langchain Chatbot
 
 ## Description
-This is an interactive chatbot application that utilizes the Langchain library for text retrieval and the OpenAI API for language modeling. The chatbot operates in the command line and awaits user queries, responding with the most relevant information extracted from a given documentation file. 
+This is an interactive chatbot application that utilizes the Langchain library for text retrieval and OpenAI's API for language modeling. The chatbot operates in the command line and awaits user queries, responding with the most relevant information extracted from a given documentation file. 
 
 ## Prerequisites
 - Python 3.6+
