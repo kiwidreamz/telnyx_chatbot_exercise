@@ -6,7 +6,7 @@ This is an interactive chatbot application that utilizes the Langchain library f
 ## Prerequisites
 - Python 3.6+
 - An OpenAI API key
-- Langchain and other dependencies installed
+- Langchain + other dependencies installed
 
 ## Setup and Run the Project Locally
 1. **Clone the repository** 
