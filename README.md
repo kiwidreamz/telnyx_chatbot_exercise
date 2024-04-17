@@ -51,7 +51,7 @@ While developing this bot, I faced several challenges:
 
 3. **Vector Storage**: Initially, I tried using Pinecone for vector storage but struggled with its implementation. After some trial and error, I switched to FAISS (Facebook AI Similarity Search) and found it to be much easier to get working. 
 
-Despite these challenges, I learned a lot during the development process, and I'm proud of the chatbot that I've built.
+Despite these challenges, I learned a lot during the development process, and I'm proud of the chatbot that I've built. 
 
 ## Source Code
 For a deeper understanding of the project, you can review the source code in the `app.py` file.
